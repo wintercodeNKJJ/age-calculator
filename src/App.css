@@ -1,0 +1,68 @@
+.App {
+  @apply flex justify-center items-center h-screen bg-[#fbfbfb];
+}
+
+@font-face {
+  font-family: Poppin-Bold;
+  src: url("./assets/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: Poppin-BoldItalic;
+  src: url("./assets/fonts/Poppins-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: Poppin-ExtraBold;
+  src: url("./assets/fonts/Poppins-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: Poppin-ExtraBoldItalic;
+  src: url("./assets/fonts/Poppins-ExtraBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: Poppin-Italic;
+  src: url("./assets/fonts/Poppins-Italic.ttf");
+}
+
+@font-face {
+  font-family: Poppin-Regular;
+  src: url("./assets/fonts/Poppins-Regular.ttf");
+}
+
+.age-card {
+  @apply rounded-[1.5rem] rounded-br-[8.5rem] bg-white px-[2.8rem] py-[2.6rem] w-[670px];
+}
+.card-input-section {
+  @apply flex gap-[1.7rem];
+}
+.card-input {
+  @apply flex flex-col;
+}
+
+.card-input label {
+  font-family: Poppin-Bold;
+  letter-spacing: 1px;
+  @apply mb-[0.4rem] text-[12px];
+}
+
+.card-input input {
+  font-family: Poppin-bold;
+  font-size: 1.7rem;
+  cursor: pointer;
+  @apply border rounded-md h-[55px] w-[126px] p-4;
+}
+
+.card-input input:focus {
+  @apply border-[#844efe];
+}
+
+.card-display-section h3 {
+  font-family: Poppin-ExtraBoldItalic;
+  font-size: 5.25rem;
+  line-height: 5.75rem;
+  letter-spacing: 0px;
+  @apply flex;
+}
